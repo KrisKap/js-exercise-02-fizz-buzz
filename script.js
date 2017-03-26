@@ -8,22 +8,22 @@ var number = 1
 
 for (var i=0; i < 100; i++) {
 
-	if (!(number % 5) && !(number % 3) ) {      	//test podzielnosci liczby jednoczesnie przez 5 i 3
-		console.log("FizzBuzz");
-	}
+  if (!(number % 5) && !(number % 3) ) {        //test podzielnosci liczby jednoczesnie przez 5 i 3
+    console.log("FizzBuzz");
+  }
 	
-	else if (!(number % 3) && (number % 5)) {			//test podzielności liczby przez 3 i niepodzielności przez 5
-		console.log("Fizz");
-	}
+  else if (!(number % 3) && (number % 5)) {     //test podzielności liczby przez 3 i niepodzielności przez 5
+    console.log("Fizz");
+  }
 
-	else if (!(number % 5) && (number % 3) ) {		// test podzielności liczby przez 5 i niepodzielności przez 3
-		console.log("Buzz");
-	}
+  else if (!(number % 5) && (number % 3) ) {    // test podzielności liczby przez 5 i niepodzielności przez 3
+    console.log("Buzz");
+  }
 
-	else {
-		console.log(number);
-	}
+  else {
+    console.log(number);
+  }
 
-	number +=1;
+  number +=1;
 	
 }
